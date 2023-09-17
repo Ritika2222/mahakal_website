@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>temple</title>
+    <!--css-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            padding-top: 80px;
+            font-size: 50px;
+            font-style: italic;
+            font-family: 'Exo 2', sans-serif;
+            text-transform: uppercase;
+
+        }
+
+        .copy {
+            font-size: 10px;
+            color: #333;
+            margin-bottom: 0;
+        }
+
+
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px;
+        }
+
+        .place-card {
+            width: 300px;
+            margin: 10px;
+            padding: 15px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+            transition: all .8s ease;
+        }
+
+        .place-card:hover {
+            transform: scale(1.05);
+        }
+
+        .place-card.expanded {
+            height: auto;
+        }
+
+        .place-card img {
+            width: 100%;
+            border-radius: 5px;
+            margin-bottom: 5px;
+        }
+
+        .place-card h2 {
+            margin-top: 0;
+            font-size: 20px;
+            color: #333;
+            text-align: center;
+        }
+
+        .place-card p {
+            margin: 10px 0;
+            color: #666;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height .8s ease;
+        }
+
+        .place-card.expanded p {
+            max-height: 100%;
+            /* Adjust the value as per your needs */
+        }
+
+        .copy {
+            font-size: 10px;
+            color: #333;
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <!--header part-->
+    <header>
+        <!--navigation bar slide content -->
+        <nav class="navbar background">
+            <ul class="nav-list">
+                <div class="logo"><img src="imagee/IMG-20230824-WA0027.jpg" alt="logo" class="src"></div>
+                <li><a href=home.html>Home</a></li>
+                <li class="dropdown">
+                    <a href="#about">About</a>
+                    <ul class="dropdown-content">
+                        <li><a href="history.html">History</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="temple.html">Temple</a></li>
+                        <li><a href="aartivideo.html">Arti video</a></li>
+                        <li><a href="pujan.html">Pujan</a></li>
+                        <li><a href="suggestion.html">Suggestion</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#information">Information</a>
+                    <ul class="dropdown-content">
+                        <li><a href="vipdarshan.html">Vipdarshan</a></li>
+                        <li><a href="donation.html">Donation</a></li>
+                        <li><a href="sheeghradarshan.html">Sheeghradarshan</a></li>
+                        <li><a href="privacypolicy.html">Privacy policy</a></li>
+                        <li><a href="dharamshala.html">Dharamshala</a></li>
+                        <li><a href="bhasamaarti.html">Bhasamaarti</a></li>
+                        <li><a href="garabhgaraha.html">Garabhgaraha</a></li>
+                        <li><a href="login.html">Login</a></li>
+                    </ul>
+                </li>
+                <li><a href=contact.html>contact</a></li>
+            </ul>
+            <div class="rightnav">
+                <input type="varchar" name="search" id="search">
+                <button class="btn btn-sm">search</button>
+            </div>
+        </nav>
+    </header>
+    <h1>Place to visit</h1>
+
+
+    <div class="container">
+
+        <div class="place-card">
+            <img src="imagee/IMG-20230824-WA0024.jpg" alt="Place 1">
+            <h2>Shree Chintaman ganesh</h2>
+            <p>Chintamani Ganesh Temple is said to be one of the most ancient temples of Ujjain, it is also one of the
+                most visited places in Ujjain Madhya Pradesh. Chintamani in Hindi means Lord Vishnu; it is the other
+                name for Vishnu. So, the temple that has the idol of Lord Ganesha and Lord Vishnu together, is known as
+                the Chintamani Temple.
+                The temple's idol is believed to be self-manifested. The deity is known as Chintaharan/Cintaman Ganesha-
+                the one who gives an assurance of freedom from worldly anxieties, the reliever of all tensions. The
+                consorts of Lord Ganesha, Riddhi and Siddhi, are placed here on both sides of the lord. The entire
+                temple is built wholly of stone and in the assembly hall are beautifully carved pillars that date back
+                to the Paramara period (9th to 14th century).
+
+                <br /> <br />
+                Chintaman ganesh is the biggest temple of lord ganesh in ujjain
+            </p>
+        </div>
+
+        <div class="place-card">
+            <img src="imagee/IMG-20230824-WA0024.jpg" alt="Place 2">
+            <h2>Kaalbhairav</h2>
+            <p>At a distance of 7 km from Ujjain Junction, Kal Bhairav Temple is a revered Hindu shrine located in
+                Ujjain, Madhya Pradesh. Situated on the banks of the Kshipra River, it is one of the most active temples
+                in Ujjain,
+                The Kal Bhairav Temple is dedicated to Kal Bhairav, a fierce manifestation of Lord Shiva, and he is
+                regarded as the guardian deity of the city. Though Ujjain houses a huge number of temples within its
+                geographical area, Kal Bhairav is the most prominent one and records a footfall of thousands of devotees
+                every day. The worship of Ashta Bhairava is a part of the Saivite tradition, and the Kal Bhairav is
+                considered their chief. The worship of Kal Bhairav was traditionally popular among the Kapalika and
+                Aghora sects, and Ujjain was a prominent center of these sects.
+                According to the Avanti Khanda of the Skanda Purana, the original temple of Lord Kal Bhairav is believed
+                to have been built by an obscure king named Bhadrasen. Images of Lord Shiva, Parvati, Lord Vishnu, and
+                Ganesha belonging to the Paramara period (9th-13th century CE) have been recovered from the place. The
+                present-day temple that shows Maratha's influence, was built over the remains of the older temple.
+                According to history, after the defeat in the Third Battle of Panipat (1761 CE), the Maratha general
+                Mahadaji Shinde offered his pagri (turban) to the deity, praying for victory in his campaign to restore
+                the Maratha rule in North India. After successfully resurrecting Maratha's power, he restored the
+                temple.
+
+
+                <br /><br />
+                Kaalbhairav
+            </p>
+        </div>
+
+        <div class="place-card">
+            <img src="imagee/IMG-20230824-WA0024.jpg" alt="Place 3">
+            <h2>Harasiddhi</h2>
+            <p>At a distance of 2.5 km from Ujjain Junction, Harsiddhi Temple is a sacred Hindu temple located in
+                Ujjain, Madhya Pradesh. Situated near Mahakal Temple, it is one of the most sacred temples in India
+                Dedicated goddess Parvati, Harsiddhi Temple is one of the 51 Shaktipeeths of Mata Sati. This temple
+                occupies a special place in the galaxy of ancient sacred spots of Ujjain. Seated between the idols of
+                Mahalaxmi and Mahasaraswati, the idol of Annapurna is painted in dark vermilion color. The Sri Yantra,
+                the symbol of power or shakti, is also enshrined in the temple.According to the Shiva Purana, when Shiva
+                carried away the burning body of Sati from the sacrificial fire, her elbow dropped at this place. There
+                is an interesting legend in the Skanda Purana about the manner in which the Goddess Chandi acquired the
+                epithet of Harsiddhi. Once when Shiva and Parvati were alone on Mount Kailash, two demons Chand and
+                Prachand tried to force their way in.Shiva called upon Chandi to destroy them which she did. Pleased,
+                Shiva bestowed upon her the epithet of ‘one who vanquishes all’.
+                The temple architecture has some Maratha influences. It has four entrances, one in each direction, and
+                the main entrance is on the eastern side. The Sri Yantra, the symbol of power or shakti, is also
+                enshrined in the temple. The two pillars adorned with lamps here are special features of Maratha art.
+                These lamps lit during Navaratri, present a glorious spectacle. There is an ancient well on the
+                premises, and an artistic pillar adorns the top of it..
+
+                <br /><br />
+                Harasiddhi
+            </p>
+        </div>
+
+        <div class="place-card">
+            <img src="imagee/IMG-20230824-WA0024.jpg" alt="Place 4">
+            <h2>Vedshala</h2>
+            <p>The architectural marvel Jantar Mantar (also called the Vedh Shala Observatory), established in the 17th
+                century is the oldest to be constructed among the group of five observatories ( Jaipur, Delhi, Ujjain,
+                Mathura, and Varanasi). There are many significant places in Ujjain and Vedhshala is one of them. It is
+                the first observatory of India. Constructed by Sawai Raja Jai Singh between 1719-30 when he was in
+                Ujjain as the Governor of Malwa , the Vedhshala is a must visit place in Ujjain. A number of
+                astronomical studies and predictions were done here in the remote past. Such was the efficiency of the
+                instruments and the techniques that even the planetary motions were also studied at a time when science
+                and technology was in a state of infancy, not only in India but also in the whole world. However in due
+                course of time this observatory faded and lost much of its glory, when it was renovated back to its
+                earlier form in the year 1923 by Madhav Rao Scindhia the then Maharaja of Gwalior.
+                Shanku Yatra: This is an extraordinary instrument devised by Raja Jay Singh, which is capable of
+                predicting the shortest and the longest day of the year. Along with these it can also predict the two
+                days (21st March and 23rd September) in a year when the day and night are of equal length. With the help
+                of mid-day shadow, we can also determine the altitude of Ujjain city. The seven lines drawn on it
+                indicates the 12 zodiac signs.
+                Samarata Yantra: This yantra is mainly used to determine the declination of any celestial body towards
+                the north or south.
+
+                Nadivalaya Yantra: On the south side of the Samarat yantra is the Nadi valaya yantra which consists of a
+                circular dial. Over the centuries this instrument has been accurately helping astronomers to get an idea
+                of planetary positions and also the exact time of the Ujjain city.
+
+                Sun dial: Constructed in such a way that the upper planes of the two walls on the sides of the steps of
+                the sun dial are parallel to the axis of the earth. The local time of Ujjain can be very well predicted
+                by using this device.
+
+                Diganash Yantra: This instrument is applicable in fixing out the Altitude (distance from the horizon)
+                and the Azimuth (angular distance from the east or the west point measured along the horizon) of any
+                celestial body.
+
+                Transit Yantra : This instrument built in the plane of the meridian circle (i.e. the circle joining the
+                south-north and the zenith point) is used for observing the zenith distance of any celestial body
+                (corresponding to its mid-day).
+
+
+                <br /><br />
+                Vedshala
+            </p>
+        </div>
+
+        <div class="place-card">
+            <img src="imagee/IMG-20230824-WA0024.jpg" alt="Place 5">
+            <h2>Sandipani Asrama</h2>
+            <p>Ancient Ujjain, apart from its political and religious importance, was a prestigious center of learning
+                at the beginning of the Mahabharata period. . Maharishi Sandipani’s ashram is situated at Mangalnath
+                road foot.The area near the ashram is known as Ankpat, a place believed to have been used by Lord
+                Krishna to wash his writings.
+                Sandipani Ashram is a holy shrine which is built in remembrance of the Maharishi Sandipani and is
+                considered one of the famous tourist spots in Ujjain. According to mythology, it is believed that this
+                is the ashram where Guru Sandipani used to teach Shri Krishna, his friend Sudama and Lord Krishna's
+                brother Balram. Ashram now looks more like a temple and three idols of Krishna, Balram and Sudama are
+                present along with that of Guru Sandipani. There is also a stone where numerals 1 to 100 found engraved
+                and is believed to be done by guru Sandipani himself.
+                The ashram complex is huge and with vast stretches of land. There are a lot of shrines but obviously,
+                the main shrine belongs to Guru Sandipani. One of the temples situated here, called Sarveshwar Mahadev,
+                the temple here is the only temple in India to have a standing statue of Nandi - the sacred bull houses
+                a 6000-year Shivlinga with Shesnaag is in its natural form, and is believed to be worshipped by Guru
+                Sandipani and his disciples. Ashram also has a huge stepped tank called Gomati Kund, in which Lord
+                Krishna summoned all the holy water from the holy centers so that Guru Sandipani finds it easier to get
+                the holy water. The water of this pond is believed to be sacred and so, devotees fill their water
+                bottles here and take the water home.
+
+                The Gomti Kund is the tank which provided water to the ashram, and on its bank are two Shiva Lingams,
+                with footprints in between them, believed to be those of Krishna.
+
+            </p>
+        </div>
+
+        <div class="place-card">
+            <img src="imagee/IMG-20230824-WA0024.jpg" alt="Place 6">
+            <h2>Triveni Navagraha</h2>
+            <p>The Navagraha Temple is situated on the banks of the Shipra River. It is a unique temple in the entire
+                Ujjain dedicated to the planets of our solar system. Astrology has always played an important role in
+                the lives of common people and Triveni Ghat is considered one of the most sacred places in the entire
+                city. This place is also called Triveni Teertham by the locals. Locals believe that the city underwent
+                ancient astronomical studies. Devotees offer coconut, flowers, and vermilion. The Navgraha Mandir Ujjain
+                is located in the Dedhiya district which is about 8 km from the city of Ujjain, on the convergence of 3
+                rivers; Shipra, Gandaki, and Saraswati.
+                The Navgraha Mandir Ujjain if dedication to the nine planets namely Surya, Chandra, Mangal, Budh, Guru,
+                Shukra, Rahu, Ketu, and Shani. Shani is considered as the strongest planet. The god of justice has a
+                massive influence on horoscope charts. According to Hindu mythology, God Shani is the supreme judge and
+                educator. He is a well-wisher along with giving wealth and prosperity to follow good deeds. He also
+                gives severe punishment for people who are evil and involve in wrong deeds. Therefore, people worship
+                the Shani god more than anyone else and endeavor to be in his good books. Saturday is the day to visit
+                this temple.
+                Navgraha Mandir has become fairly popular in recent years and devotees come to the temple on the days of
+                the full moon and also on Saturdays, which is considered as the day of Shani God. Rounds or Parikrama
+                are done of the Navagraha stones and offer some flowers and sweets. Off late, the religious importance
+                of this place has grown a lot.
+
+            </p>
+        </div>
+
+        <div class="place-card">
+            <img src="imagee/IMG-20230824-WA0024.jpg" alt="Place 7">
+            <h2>Managalnath</h2>
+            <p>Mangalnath is a renowned Hindu temple located on the coast of the Shipra River. The Mangalnath Mandir is
+                devoted to Lord Shiva the protector and king of Ujjain Nagari. The temple has a very nice atmosphere and
+                is famous for Bhaat Puja. This is the only temple dedicated to Shree Mangalnath. Thousands of people
+                visit the temple to resolve their problems.
+                According to the matsya purana, a powerful demon Andhakasura performed austerity, impressed by his
+                austerity Lord Shiva gave him a boon that whenever a drop of blood would fall from his body on the
+                ground, a new Andhakasura would be produced. After getting the boon, Andhakasura started misusing his
+                powers by creating havoc on the earth. Troubled by his actions, all the gods went to Lord Shiva and
+                prayed to him to save them from Andhakasura. A war took place between Lord and Andhakasura. During the
+                war, a drop of sweat fell from Lord Shiva’s body on the ground resulting in the birth of Lord Mangal.
+                Lord Mangal absorbed all the blood generated from the demon’s body. After the war, all the gods
+                established a shivling at that place and named it Mangalnath.
+                It is believed that Mangalnath Mandir is the center of the earth. The Tropic of Cancer passes through
+                Mangalnath Temple. According to astrologers, if a person has mars in the first, fourth, seventh, eighth,
+                and twelfth position in a horoscope then the person is suffering from mangal dosha. Mangalnath is the
+                only Manglik temple that can convert all the bad qualities of a Manglik into virtuous ones.
+            </p>
+        </div>
+
+
+        <div class="place-card">
+            <img src="imagee/IMG-20230824-WA0024.jpg" alt="Place 8">
+            <h2>Siddhavath</h2>
+            <p>Siddhavat Ghat is a popular spot for tourists and pilgrims in Madhya Pradesh, in the holy city of Ujjain
+                . It is a sacred place where the river Shipra flows, and it is believed to be where Lord Krishna once
+                rested under a tree. The ghat is named after the tree, which is called Siddhavat. It is said that the
+                tree has magical powers and can fulfil the wishes of devotees.
+
+                Post-funeral rites are performed here at the Siddhavat ghat of holy Shipra. Skanda Purana has referred
+                to this place as Preta-shila-tirth. According to some opinion Parvati performed her penances here.
+
+                Siddhavat is famous for pitra tarpan, During ramayan days Lord Ram came here for his father tarpan.
+                Every month on Krishn Chaturdashi people came here to offer milk which is benificial if you have
+                pitradosh.
+                Siddhavat Ghat is famous for kalsarp dosh nivaran pooja. On this ghat kalsarp pooja perform on daily
+                basis and there is no need for any specific date and mahurat for kalsarp pooja. Kalsarp pooja is 4 hour
+                long pooja and at siddhvat ghat it individual pooja is perform.
+
+                The enormous banyan tree on the banks of Kshipra, has been vested with the same religious sanctity and
+                pinda danam as the Akashyavat in Prayag and Gaya, Vanshivat of Vrindavan and the Panchavata of Nasik. It
+                is also a kalasarpa nivaran center like Nasik. The tree has a peripheral dependent zone with its social,
+                religious and economic activities. Parvati is believed to have performed her penance here. Its present
+                form is a Maratha contribution although Parma sculptures are embedded in the structure.
+
+            </p>
+        </div>
+
+        <div class="place-card">
+            <img src="imagee/IMG-20230824-WA0024.jpg" alt="Place 9">
+            <h2>Gopal Mandir</h2>
+            <p>Dwarkadhish Gopal Temple is located in Ujjain, Madhya Pradesh in the middle of BadaBazar Chowk. It was
+                built in the 19th century by Vaija Bai, Shinde, the queen of Maharaja Daulat Rao Shinde. 'Dwarkadhish
+                Gopal Temple' is said to be about two hundred years old. Many types of facilities are provided by the
+                organization to the devotees who come here on the occasion of festivals the silver doors of the temple
+                are the main center of attraction. It is a beautiful example of Maratha architecture. The sanctum
+                sanctorum is inlaid with marble and the doors are plated with silver.
+                The 'Dwarkadhish Gopal Mandir' houses the idols of Lord Dwarkadhish, Shankar ,Parvati and Garuda. These
+                idols are immovable and there is also an idol of Vaija Bai in one corner. Apart from 'Janmashtami' here,
+                'Harihar's festival' is celebrated with great pomp. At the time of Harihar, Lord Mahakal's ride comes at
+                twelve o'clock in the night, then Harihar Milan means meeting of Vishnu and Shiva takes place here Where
+                at that time the worship continues for one and a half to two hours. and at the time of Bhasma Aarti, the
+                ride of Gopal Krishna goes to Mahakalehswar and a bunch of tulsi is offered there. The silver doors of
+                the temple are another attraction here.
+                There is a feeling of deep peace as soon as you enter the temple. Its huge pillars and beautiful
+                carvings are made on sight. People coming from outside take rest during Sinhastha or other festivals in
+                the huge courtyard around the temple . During the festivals, various facilities are provided by the
+                trust for the devotees and pilgrim.
+            </p>
+        </div>
+    </div>
+
+    <!--top button in form to go direct top of the website-->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
+
+    <!--footer part-->
+    <marquee behavior="" direction="">Thanks for visiting.....!</marquee>
+    <footer class="na--">
+
+        <h4 class="fooot">
+            Shree<br>Mahakaleshwar
+        </h4>
+        <p class="par">One of the 12 jyotirlingas in india , the lingam at the mahakal is believed to be swayambhu (born
+            of itself)
+            deriving currents of power shakti from within itself as against the other images and lingams which are
+            ritually established and invested with mantra-shakti</p>
+
+        <div class="foot">
+            <a href="home.html">Home </a>|
+            <a href="donation.html">Donation </a>|
+            <a href="privacypolicy.html">Privacy Policy</a>|
+            <a href="contact.html">Contact </a>
+            <br>
+            <br><br><br><br>
+        </div>
+    </footer>
+    </div>
+
+    <!--javascript-->
+    <script src="scriptt.js"></script>
+</body>
+
+</html>

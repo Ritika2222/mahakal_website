@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation</title>
+    <!--css-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+</head>
+
+<body>
+    <!--header part-->
+    <header>
+        <!--navigation bar slide content -->
+        <nav class="navbar background">
+            <ul class="nav-list">
+                <div class="logo"><img src="imagee/IMG-20230824-WA0027.jpg" alt="logo" class="src"></div>
+                <li><a href=home.html>Home</a></li>
+                <li class="dropdown">
+                    <a href="#about">About</a>
+                    <ul class="dropdown-content">
+                        <li><a href="history.html">History</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="temple.html">Temple</a></li>
+                        <li><a href="aartivideo.html">Arti video</a></li>
+                        <li><a href="pujan.html">Pujan</a></li>
+                        <li><a href="suggestion.html">Suggestion</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#information">Information</a>
+                    <ul class="dropdown-content">
+                        <li><a href="vipdarshan.html">Vipdarshan</a></li>
+                        <li><a href="donation.html">Donation</a></li>
+                        <li><a href="sheeghradarshan.html">Sheeghradarshan</a></li>
+                        <li><a href="privacypolicy.html">Privacy policy</a></li>
+                        <li><a href="dharamshala.html">Dharamshala</a></li>
+                        <li><a href="bhasamaarti.html">Bhasamaarti</a></li>
+                        <li><a href="garabhgaraha.html">Garabhgaraha</a></li>
+                        <li><a href="login.html">Login</a></li>
+                    </ul>
+                </li>
+                <li><a href=contact.html>contact</a></li>
+            </ul>
+            <div class="rightnav">
+                <input type="varchar" name="search" id="search">
+                <button class="btn btn-sm">search</button>
+            </div>
+        </nav>
+    </header>
+    <div class="container ">
+        <h2>Donation Money</h2>
+        <form action="loginconnect.php" name="userid" method="post">
+            <h3>Personal detalis</h3>
+            <br>
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name.." />
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name.." />
+
+            <label for="fname">Father Name</label>
+            <input type="text" id="fname" name="fathername" placeholder="Your name father name.." />
+
+            <label for="mn">Mobile number</label>
+            <input type="text" id="mn" name="num" placeholder="Your Mobilenumber.." />
+
+            <label for="emaill">E-mail</label>
+            <input type="email" id="em" name="emaill" placeholder="Your email.." />
+            <br>
+            <hr>
+            <h3>Add Address detalis</h3>
+            <br>
+            <label for="address">Address</label>
+            <input type="text" id="add" name="address" placeholder="Your address.." />
+
+            <label for="country">Country</label>
+            <input type="text" id="country" name="country" placeholder="Your country.." />
+
+            <label for="state">State</label>
+            <input type="text" id="state" name="state" placeholder="your state.." />
+
+            <label for="city">city</label>
+            <input type="text" id="city" name="city" placeholder="your city.." />
+
+            <label for="pincode">pincode</label>
+            <input type="text" id="pincode" name="pincode" placeholder="your pincode.." />
+
+            <input type="submit" value="Submit" />
+            <input type="reset" value="Reset" />
+        </form>
+    </div>
+
+    <!--top button in form to go direct top of the website-->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
+    <!--footer part-->
+    <marquee behavior="" direction="">Thanks for visiting.....!</marquee>
+    <footer class="na--">
+
+        <h4 class="fooot">
+            Shree<br>Mahakaleshwar
+        </h4>
+        <p class="par">One of the 12 jyotirlingas in india , the lingam at the mahakal is believed to be swayambhu (born
+            of itself)
+            deriving currents of power shakti from within itself as against the other images and lingams which are
+            ritually established and invested with mantra-shakti</p>
+
+        <div class="foot">
+            <a href="home.html">Home </a>|
+            <a href="donation.html">Donation </a>|
+            <a href="privacypolicy.html">Privacy Policy</a>|
+            <a href="contact.html">Contact </a>
+            <br>
+            <br><br><br><br>
+        </div>
+    </footer>
+    <!--javascript-->
+    <script src="scriptt.js"></script>
+</body>
+
+</html>
